@@ -7,7 +7,7 @@ body{
 }
 #profile-card{
 	position: relative;
-	padding: 25px;
+	padding: 55px;
 	border-radius: 3px;
 	background: linear-gradient(to right bottom, rgba(255 , 255 , 255 , 0.6) ,
     rgba(255 , 255 , 255 , 0.2) );
@@ -27,6 +27,18 @@ body{
 	border: 3px solid rgba(255,255,255,0.4);
 	
 }
+.profile-img::before {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    content: '';
+    bottom: 5px;
+    right: 10px;
+    border: 3px solid;
+
+    background: #90ee02;
+}
 .profile-name{
 	text-align: center;
 	color: #25283a;
@@ -40,7 +52,7 @@ body{
 	font-weight: 500;
 }
 .social{
-	margin: 20px ;
+	margin: 30px ;
 	text-align: center;
 }
 .social a {
@@ -53,7 +65,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	margin: 0px 5px;
+	margin: 0px 10px;
 	transition: 0.3s;
 	box-shadow: 2px 2px 2px rgb(28 115 214 / 30%);
 }
